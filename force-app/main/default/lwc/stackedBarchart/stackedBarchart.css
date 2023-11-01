@@ -1,0 +1,52 @@
+.tooltip {
+  background-color: #ffffff;
+  font-family: sans-serif;
+  font-size: 13px;
+  padding: 4px;
+  color: #404040;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0px 0px 3px 0px #E6E6E6;
+}
+
+/* .chart-container{
+  position: relative;
+} */
+
+/* CSS for legend items */
+/* CSS for legend items */
+.legend-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-top: 20px; /* Adjust margin as needed */
+}
+
+.legend {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.legend li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 5px;
+}
+
+.legend-item {
+  display: flex;
+}
+/* Updated styling for legend color box */
+.legend-color-box {
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+  border-radius: 3px; /* Adjust border radius as needed */
+  color: transparent
+}
+
+.legend-label {
+  margin-left: 15px;
+  font-size: 14px; /* Adjust the font size as needed */
+}

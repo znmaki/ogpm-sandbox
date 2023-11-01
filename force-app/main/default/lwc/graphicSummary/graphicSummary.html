@@ -1,0 +1,29 @@
+<template>
+    <div class="slds-grid slds-wrap slds-gutters">
+        <div class="slds-col slds-size_2-of-12">
+            <c-summary-card title="Total Invested (equity)" data-id="card-total-invested"></c-summary-card>
+            <c-summary-card title="Annualized return" data-id="card-annualized-return"></c-summary-card>
+            <c-summary-card title="Paid" data-id="card-paid"></c-summary-card>
+        </div>
+
+        <div class="slds-col slds-size_6-of-12" data-id="dividends-by-quarter-year-container">
+            <c-stacked-barchart data-id="dividends-by-quarter-year" title="Dividends by Year, Quarter and Deal Name"></c-stacked-barchart>
+        </div>
+
+        <div class="slds-col slds-size_4-of-12">
+            <c-stacked-barchart data-id="investment-amount-by-deal-and-close-date" title="Investment by Year and Deal Name"></c-stacked-barchart>
+        </div>
+
+        <div class="slds-col slds-size_3-of-12 slds-var-m-top_medium">
+            <c-piechart data-id="investment-by-property-type" title="Investment by Property Type"></c-piechart>
+        </div>
+
+        <div class="slds-col slds-size_3-of-12 slds-var-m-top_medium">
+            <c-piechart data-id="investment-by-property-zone" title="Investment by Property Zone"></c-piechart>
+        </div>
+
+        <div class="slds-col slds-size_6-of-12 slds-var-m-top_medium">
+            <c-linear-chart data-id="average-cash-on-cash-by-qr4-yeare" title="Average of % Cap Cash on Cash by Year and Quarter"></c-linear-chart>
+        </div>
+    </div>
+</template>
